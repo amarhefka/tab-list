@@ -6,29 +6,35 @@
   <title>Tab List</title>
 </head>
 <body>
-
+  
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur sagittis lorem, quis lobortis <a href="#">ligula euismod eget</a>. Integer rutrum risus sed metus volutpat dictum eget facilisis sem.</p>
-
+  
   <ul id="tabs" role="tablist">
-    <li role="presentation"><a id="tab-1" href="#panel-1"  role="tab" aria-controls="panel-1" aria-selected="true">Tab 1</a></li>
-    <li role="presentation"><a id="tab-2" href="#panel-2" role="tab" aria-controls="panel-2" aria-selected="false" tabindex="-1">Tab 2</a></li>
-    <li role="presentation"><a id="tab-3" href="#panel-3"  role="tab" aria-controls="panel-3" aria-selected="false" tabindex="-1">Tab 3</a></li>
+    <li role="presentation">
+      <a id="tab-1" href="#panel-1"  role="tab" aria-controls="panel-1" aria-selected="true">Tab 1</a>
+    </li>
+    <li role="presentation">
+      <a id="tab-2" href="#panel-2" role="tab" aria-controls="panel-2" aria-selected="false" tabindex="-1">Tab 2</a>
+    </li>
+    <li role="presentation">
+      <a id="tab-3" href="#panel-3"  role="tab" aria-controls="panel-3" aria-selected="false" tabindex="-1">Tab 3</a>
+    </li>
   </ul>
   
   <div id="panel-1" role="tabpanel" aria-labelledby="tab-1">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel pellentesque dolor, at accumsan enim. In a justo tincidunt nisl finibus mattis eget vitae diam. Nunc placerat dictum facilisis. Proin aliquam purus vel magna vehicula hendrerit. Vivamus sollicitudin dapibus blandit. Pellentesque eu ante id enim luctus pharetra et in ante. Sed in urna eget felis finibus finibus quis quis dui. Sed efficitur, leo ac sagittis volutpat, lorem erat rhoncus ligula, quis congue nisl urna id augue.</p>
   </div>
   
-  <div id="panel-2" role="tabpanel" aria-labelledby="tab-2" style="display: none">
+  <div id="panel-2" role="tabpanel" aria-labelledby="tab-2" style="display:none">
     <p>Mauris a tellus pellentesque, rutrum ex sed, convallis est. Nullam maximus dictum ante eleifend ultricies. Vestibulum <a href="#">consectetur quis</a> mattis risus magna, non commodo nulla convallis ac. Nunc vel sem ullamcorper, molestie mi vel, eleifend nibh. Praesent posuere ante dolor, quis luctus nisl varius ac. Aliquam vel leo risus. Etiam semper eros quis sodales rhoncus. Sed vitae orci eget orci ultrices pretium ut at lacus. Ut nec pulvinar libero, sed volutpat libero. In non leo a elit consectetur fringilla maximus id neque.</p>
   </div>
   
-  <div id="panel-3" role="tabpanel" aria-labelledby="tab-3" style="display: none">
+  <div id="panel-3" role="tabpanel" aria-labelledby="tab-3" style="display:none;">
     <p>Ut sodales urna vitae imperdiet porttitor. Morbi eu eleifend tellus, in mollis metus. Etiam vitae sapien lacus. Pellentesque tincidunt est ante, tincidunt ornare dolor tincidunt id. Integer leo nulla, libero ac, consequat pellentesque mauris. Pellentesque nec tincidunt turpis. Nulla feugiat sapien eu sem interdum commodo. Aliquam lacus lectus, imperdiet nec felis in, sollicitudin sagittis est. Ut quis purus nibh.</p>
   </div>
-
+  
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur sagittis lorem, quis lobortis <a href="#">rutrum risus</a>. Integer sed metus volutpat dictum eget facilisis sem.</p>
-
+  
   <script src="https://cdn.rawgit.com/amarhefka/tab-list/master/javascript.js"></script>
   
 </body>
